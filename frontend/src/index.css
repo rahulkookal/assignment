@@ -60,20 +60,33 @@ p span:first-child{
   display: none;
 }
 
-form{
-  text-align: center;
-  position: fixed;
-  width: 90%;
-  bottom: 30px;
-}
-
-input{
-  width: 100%;
+input {
   height: 40px;
   border: none;
   padding: 10px;
   font-size: 1.2rem;
   background-color: rgb(28, 23, 23);
+}
+.chat-form {
+  text-align: center;
+  position: fixed;
+  width: 90%;
+  bottom: 100px;
+  display: block;
+}
+.upload-form {
+  text-align: center;
+  position: fixed;
+  width: 90%;
+  bottom: 30px;
+  display: block;
+  padding: 0 30px 0 30px;
+}
+.text {
+  width:80%;
+}
+.embededCheck {
+  width: 10%;
 }
 
 input:focus{
